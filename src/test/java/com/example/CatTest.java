@@ -1,7 +1,5 @@
 package com.example;
 
-import com.example.Cat;
-import com.example.Feline;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

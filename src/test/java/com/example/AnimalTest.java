@@ -1,5 +1,4 @@
 package com.example;
-import com.example.Animal;
 import org.junit.Before;
 import org.junit.Test;
 
