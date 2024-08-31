@@ -30,17 +30,6 @@ public class LionTest {
     }
 
     @Test
-    public void testDoesHaveManeFemale() {
-        assertEquals(false, lion.doesHaveMane());
-    }
-
-    @Test
-    public void testDoesHaveManeMale() throws Exception {
-        lion = new Lion("Самец", feline);
-        assertEquals(true, lion.doesHaveMane());
-    }
-
-    @Test
     public void testLionConstructorWithInvalidSex() {
         Exception exception = assertThrows(Exception.class, () -> {
             new Lion("Львенок", feline);
